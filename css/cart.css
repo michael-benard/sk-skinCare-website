@@ -1,0 +1,132 @@
+body{
+    background-color: #d3d3d3;
+}
+.container div.row{
+    background-color:white;
+    border-radius: 20px;
+}
+ul#goods-choose{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    margin: -230px 0 0 0;
+    padding:  50px;
+    margin-bottom: 60%;
+    padding-top: 50%;
+    height: 80%;
+}
+ul#goods-choose li{
+    list-style: decimal;
+    display: flex;
+    align-items: center;
+    justify-content:left;
+    color: #633729;
+    position: relative;
+}
+div.container .row{
+    position: relative;
+}
+p{
+    font-size: xx-large;
+    font-weight: bolder;
+    color: #f0d885;
+    margin-bottom: 60px;
+}
+div#pay {
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    white-space: nowrap;
+    width: 10%;
+    padding-top: 5px;
+    height: 40px;
+    display: block;
+    border-radius: 20px;
+    background-color: blue;
+}
+#message{
+    margin-bottom: 10px;
+    margin-top: 30px;
+}
+a#homepage{
+    text-decoration: none;
+    white-space: nowrap;
+    position: absolute;
+    top: 5px;
+    right: 20px;
+    width: 10%;
+    padding-top: 5px;
+    height: 40px;
+    display: block;
+    border-radius: 20px;
+    color: white;
+    background-color: blue;
+}
+button.delete{
+    width: 30%;
+    height: 40px;
+    display: block;
+    border-radius: 20px;
+    background-color: blue;
+    color: white;
+    position: absolute;
+    right: 80px;
+    bottom: 0;
+}
+h1#Total-cost{
+    font-size:x-large;
+    color: blue;
+}
+.container{
+    overflow-x: hidden;
+}
+@media(max-width:770px){
+    ul#goods-choose{
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        flex-direction: column;
+        margin: 90px 0 0 0;
+        padding:  5px;
+    } 
+    a#homepage{
+        text-decoration: none;
+        white-space: nowrap;
+        position: absolute;
+        top: 5px;
+        right: 20px;
+        width: 30%;
+        padding-top: 5px;
+        height: 60px;
+        display: block;
+        border-radius: 20px;
+        color: white;
+        background-color: blue;
+    }
+    button#pay{
+        text-decoration: none;
+        white-space: nowrap;
+        width: 30%;
+        padding-top: 5px;
+        height: 40px;
+        display: block;
+        border-radius: 20px;
+        color: white;
+        background-color: blue;
+    }
+    div#pay {
+        text-align: center;
+        white-space: nowrap;
+        width: 30%;
+        height: 50px;
+        padding-top: 5px;
+        height: 40px;
+        display: block;
+        color: white;
+        border-radius: 20px;
+        background-color: blue;
+        margin-bottom: 10px;
+    }
+
+}
